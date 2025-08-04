@@ -7,5 +7,6 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(),tsconfigPaths()],
-  base:"https:github.com/iam-johnhardy/John_Hardy_Portfolio.git",
+  base:"/John_Hardy_Portfolio"
+   
 });
