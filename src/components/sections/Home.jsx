@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import  ai from "../../assets/A.I-image.jpg";
+import  ai from "./../../../public/assets/A.I-image.jpg";
 
 export const Home = () => {
 

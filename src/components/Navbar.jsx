@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import  logo  from "../assets/logoMe.jpg";
+import  logo  from "./../../public/assets/logoMe.jpg";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
