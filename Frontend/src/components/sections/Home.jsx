@@ -1,5 +1,7 @@
+import ai from '../../assets/A.I-image.jpg';
 import { RevealOnScroll } from "../RevealOnScroll";
-import  ai from "./../../../public/assets/A.I-image.jpg";
+// import Client from './Client';  
+
 
 export const Home = () => {
 
@@ -46,7 +48,12 @@ export const Home = () => {
           </div>
         </div>
         
+        
+        
       </RevealOnScroll>
+      <div className='fixed bottom-20  right-0 z-50 p-4 bg-gray-800 bg-opacity-80 backdrop-blur-md'>
+          {/* <Client/> */}
+        </div>
     </section>
   );
 };
