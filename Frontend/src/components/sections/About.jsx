@@ -98,11 +98,10 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2024){" "}
+                    Software Instructor at StarLine Eduction (2025 - Present){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                    Supporting technical skill development with organized lessons and practical labs.
                   </p>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 import ai from '../../assets/A.I-image.jpg';
 import { RevealOnScroll } from "../RevealOnScroll";
-// import Client from './Client';  
+import AssistantChat from '../../components/sections/AssistantChat.jsx';
 
 
 export const Home = () => {
@@ -52,6 +52,7 @@ export const Home = () => {
         
       </RevealOnScroll>
       <div className='fixed bottom-20  right-0 z-50 p-4 bg-gray-800 bg-opacity-80 backdrop-blur-md'>
+        <AssistantChat />
           {/* <Client/> */}
         </div>
     </section>
